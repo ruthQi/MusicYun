@@ -30,4 +30,11 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-vue init webpack xxx(project name)
+1.vue创建项目：vue init webpack xxx(project name);
+
+2.nginx启动（https://www.cnblogs.com/zyw-205520/p/5064568.html）：
+在nginx.exe目录下，使用git bash
+命令：
+start nginx:启动项目
+./nginx -s reload: 重启
+./nginx -s stop: 暂停nginx
