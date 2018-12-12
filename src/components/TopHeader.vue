@@ -30,7 +30,7 @@ export default {
       //使用router-link时，自动标签会变为active状态
       let path = this.$route.path;
       this.tabArr.forEach((item, index) => {
-         if (path.replace('/', '') === item.link){
+         if(path.replace('/', '') === item.link){
             this.curIndex = index;
          }
       });

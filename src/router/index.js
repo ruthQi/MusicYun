@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Main from '@/components/Main';
+import Song from '@/components/Song';
+import Playlist from '@/components/Playlist';
 
 Vue.use(Router);
 
@@ -27,6 +29,15 @@ export default new Router({
                component: () => import('@/components/Search')
             }
          ]
+      },
+      {
+         path: '/song',
+         component: Song
+      },
+      {
+         path: '/playlist',
+         name: 'Playlist',
+         component: Playlist
       }
    ]
 });

@@ -33,4 +33,8 @@ ul,li{
 a{
    text-decoration: none;
 }
+h2, p{
+   padding: 0px;
+   margin: 0px;
+}
 </style>

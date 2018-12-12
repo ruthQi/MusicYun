@@ -30,6 +30,10 @@ module.exports = {
       'semi': ["error", "always"],
       'no-extra-semi': "error",
       'space-before-blocks': [1, "never"],
-      'spaced-comment': 'off'
+      'spaced-comment': 'off',
+      'keyword-spacing': ["error", {"overrides": {
+         "if": { "after": false }
+      }}],
+      'no-unused-vars': 'off'
    }
 }
